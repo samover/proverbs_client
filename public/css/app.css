@@ -6,6 +6,8 @@ body{
   -webkit-font-smoothing: antialiased;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: #ddd;
+  padding-top: 40px;
 }
 
 #login-nav input { 
@@ -13,7 +15,6 @@ body{
 }
 
 .quote-wrap {
-  /*width: 300px;*/
   margin: 20px auto;
   padding: 20px;
   position: relative; 
@@ -35,105 +36,84 @@ body{
 }
 
 .quote-box {
-  /*width: 500px;*/
+  background: url('../img/leather.jpeg');
+  background-size: cover;
+  margin-top: 100px;
+  padding-top: 100px;
+  color: #fff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  border-top: 10px solid #fff;
 }
 
-.quote-box blockquote{
-  background: #fff;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 
-  inset 0 2px 0 rgba(188, 147, 200, 0.7), 
-  -5px -4px 25px rgba(0, 0, 0, 0.3);
-}
-
-.quote-box blockquote:after, 
-.quote-box blockquote:before  {
-  top: 100%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-
-.quote-box blockquote:after  {
-  border-top-color: #ffffff;
-  border-width: 10px;
-  left: 65%;
-  margin-left: -10px;
-}
-
-.quote-box blockquote:before {
-  border-top-color: rgba(0,0,0,0.01);
-  border-width: 11px;
-  left: 65%;
-  margin-left: -11px;
-}
-
-.quote-box blockquote p {
-  font-family: 'Alegreya', serif;
-  font-size: 24px;
-  color: #b4b4b4;
-  font-weight: 400;
-  line-height: 40px;
-  font-style: italic;
-  text-indent: 100px;
-  position: relative;
-}
-
-.quote-box blockquote p:before{
-  content: '\201C';
-  font-family: serif;
-  font-style: normal;
-  font-weight: 700;
-  position: absolute;
-  font-size: 175px;
-  top: 0px;
-  left: -105px;
-  color: rgba(188, 147, 200, 1);
-  text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
-}
-
-.quote-box .quote-attribution {
-  text-align: right;
-  padding: 20px 100px 20px 20px;
-  position: relative;
-}
-
-.quote-box .quote-thuquote {
+.quote-box .quote-thumb {
   display: block;
-  width: 70px;
-  height: 70px;
-  border: 5px solid #fff;
+  width: 180px;
+  height: 180px;
+  border: 10px solid #EEE8CD;
   border-radius: 50%;
-  background: url(../images/bronte.jpg) no-repeat center center;
+  background: url(../img/wise.jpg);
+  background-size: cover;
+  background-position: center;
   position: absolute;
-  right: 10px;
-  bottom: 5px;
+  left: 50%;
+  top: -90px;
+  margin: 0 0 0 -90px;
   box-shadow: 
   inset 1px 1px 4px rgba(0,0,0,0.5),
   0 2px 3px rgba(0,0,0,0.6);
 }
 
+.quote-box blockquote:before,
+.quote-box blockquote:after {
+  font-family: 'icons';
+  position: absolute;
+  font-size: 70px;
+  top: -95px;
+  color: #242526;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.1);
+}
+
+.quote-box blockquote:before{
+  content: '\275d';
+}
+
+.quote-box blockquote:after{
+  right: 0px;
+  content: '\e800';
+}
+
+.quote-box blockquote p {
+  font-family: Cambria, Georgia, serif;
+  font-style: italic;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+  padding: 10px 10px 20px 10px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.quote-box .quote-attribution {
+  text-align: right;
+}
+
 .quote-box .quote-author{
-  font-family: 'Alegreya SC', serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: rgba(188, 147, 200, 1);
-  text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFC125;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.1);
 }
 
 .quote-box cite a{
-  font-family: 'Alegreya', serif;
-  font-weight: 700;
+  color: #f0f0f0;
   font-style: italic;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  font-family: Cambria, Georgia, serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
 }
 
 .quote-box cite a:hover{
-  color: rgba(188, 147, 200, 1);
-  text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.9)
 }
+
