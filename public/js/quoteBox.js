@@ -18,7 +18,7 @@ var QuoteBox = React.createClass({
   },
 
   handleClick: function() {
-
+    this.getProverb();
   },
 
   render: function() {
