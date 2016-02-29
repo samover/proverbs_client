@@ -1,0 +1,18 @@
+{
+  "name": "proverb_client",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "samover <samuel.overloop@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/samover/proverbs_client",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
