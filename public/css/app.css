@@ -120,3 +120,12 @@ body {
   height: 25px;
   margin: 10px auto 0 auto;
 }
+
+#fadeandscale {
+  transform: scale(0.8);
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  width: 100%;
+  max-width: 600px;
+}
