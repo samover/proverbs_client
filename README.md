@@ -6,4 +6,4 @@ React version, which I did just because I could. [Check it
 out](https://github.com/samover/proverbs_client/tree/reactify): it's like
 swatting a moquito with an elephant.
 
-![screenshot]( http://i.imgur.com/w5UYn36.png )
+![screenshot]( http://i.imgur.com/fkrfQ8p.png )
