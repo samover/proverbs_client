@@ -1,0 +1,27 @@
+{
+  "name": "proverb_client",
+  "version": "1.0.0",
+  "description": "A simple api client for my [proverbs api](https://github.com/samover/proverbs_api) written in jQuery. There is also a React version, which I did just because I could. [Check it out](https://github.com/samover/proverbs_client/tree/reactify): it's like swatting a moquito with an elephant.",
+  "main": "app.js",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "express": "^4.13.4",
+    "babel-preset-react": "^6.5.0",
+    "react-dom": "^0.14.7",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samover/proverbs_client.git"
+  },
+  "author": "samover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samover/proverbs_client/issues"
+  },
+  "homepage": "https://github.com/samover/proverbs_client#readme"
+}

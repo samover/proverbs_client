@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var QUOTE_API = 'http://localhost:8080/api/'
+  var QUOTE_API = 'https://proverbs-api.herokuapp.com/api/'
   getQuote();
 
   $('.new_quote').on('click', getQuote);
