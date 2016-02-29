@@ -17,10 +17,6 @@ var QuoteBox = React.createClass({
     }.bind(this));
   },
 
-  handleClick: function() {
-    this.getProverb();
-  },
-
   render: function() {
     return (
       <div className="quote-wrap quote-box">
@@ -28,7 +24,7 @@ var QuoteBox = React.createClass({
         <blockquote cite="https://www.gutenberg.org/ebooks/39281"><p>{this.state.proverb}</p></blockquote>
         <div className="row">
           <div className="col-md-2">
-            <button onClick={this.handleClick} className="pull-left btn btn-warning new_quote">New Quote</button>
+            <button onClick={this.getProverb} className="pull-left btn btn-warning new_quote">New Quote</button>
           </div>
           <div className="col-md-10">
             <div className="quote-attribution">
